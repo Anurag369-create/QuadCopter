@@ -2,7 +2,7 @@
 float Rateroll,RateRoll,RatePitch,RateYaw;
 float AccX,AccY,AccZ;
 float AngleRoll,AnglePitch;
-float LoopTimer;
+float LoopTimer;  
 
 void gyrosignals(void){
   Wire.beginTransmission(0x68);
@@ -76,5 +76,6 @@ void loop (){
   Serial.print("Pitch Angle []=");
   Serial.println(AnglePitch);
   delay(50);
+
 
 }
