@@ -1,11 +1,11 @@
-# 🛸 Experimental Quadcopter – Teensy + FS-i6 (PPM Mode)
+#  Experimental Quadcopter – Teensy + FS-i6 (PPM Mode)
 
 This project is an **experimental quadcopter flight controller** built around a **Teensy microcontroller** and the **FlySky FS-i6 transmitter/receiver system** in **PPM mode**.  
 The aim is to design, test, and document a custom control stack for multirotors, with a focus on **lightweight firmware**, **sensor fusion**, and **experimental control algorithms**.
 
 ---
 
-## 📸 Drone Build
+##  Drone Build
 
 | ![Drone1](images/Drone2.jpg) | ![Drone2](images/Drone1.jpg) |
 |-------------------------------|-------------------------------|
@@ -15,7 +15,7 @@ The aim is to design, test, and document a custom control stack for multirotors,
 
 ---
 
-## 🛠 Hardware
+##  Hardware
 
 - **MCU**: Teensy (e.g., Teensy 4.0 / 4.1, ARM Cortex-M7)  
 - **Transmitter/Receiver**: FlySky FS-i6 + FS-iA6B in **PPM mode**  
@@ -27,7 +27,7 @@ The aim is to design, test, and document a custom control stack for multirotors,
 
 ---
 
-## 📡 FS-i6 Setup (PPM Mode)
+##  FS-i6 Setup (PPM Mode)
 
 1. On FS-i6 transmitter → **Settings → RX Setup → Output Mode**.  
 2. Select **PPM** instead of PWM or iBus.  
@@ -42,7 +42,7 @@ The aim is to design, test, and document a custom control stack for multirotors,
 
 ---
 
-## 🎛 Features (Planned / In Progress)
+##  Features (Planned / In Progress)
 
 - ✅ PPM input decoding  
 - ✅ IMU sensor reading (MPU6050)  
