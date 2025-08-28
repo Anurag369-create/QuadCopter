@@ -7,7 +7,7 @@ The aim is to design, test, and document a custom control stack for multirotors,
 
 ## 📸 Drone Build
 
-| ![Drone1](images/Drone1.jpg) | ![Drone2](images/Drone2.jpg) |
+| ![Drone1](images/Drone2.jpg) | ![Drone2](images/Drone1.jpg) |
 |-------------------------------|-------------------------------|
 | First prototype               | Top view of quadcopter       |
 
@@ -24,8 +24,34 @@ The aim is to design, test, and document a custom control stack for multirotors,
 - **Power**: LiPo battery (3S/4S depending on design)  
 - **Frame**: 250–450mm quadcopter frame  
 
+
 ---
 
-## 📂 Folder Structure
+## 📡 FS-i6 Setup (PPM Mode)
 
+1. On FS-i6 transmitter → **Settings → RX Setup → Output Mode**.  
+2. Select **PPM** instead of PWM or iBus.  
+3. Connect **receiver PPM output pin** → Teensy digital input (e.g., pin 23).  
+4. Configure Teensy firmware to decode up to 6 channels:  
+   - Throttle  
+   - Roll  
+   - Pitch  
+   - Yaw  
+   - AUX1  
+   - AUX2  
 
+---
+
+## 🎛 Features (Planned / In Progress)
+
+- ✅ PPM input decoding  
+- ✅ IMU sensor reading (MPU6050)  
+- ✅ Kalman filter for sensor fusion  
+- ✅ Angle mode (basic self-leveling)  
+- 🚧 Rate (acro) mode  
+- 🚧 PID tuning interface  
+- 🚧 Failsafe and arming logic  
+- 🚧 Data logging (blackbox)  
+- 🚧 Experimental autonomous features  
+
+---
