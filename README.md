@@ -27,5 +27,9 @@ The goal is to design, test, and document a custom control stack for multirotors
 - 🚧 **PID tuning interface**  
 - 🚧 **Failsafe / arming logic**  
 - 🚧 **Experimental autonomous features**  
+---
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
 
 ---
