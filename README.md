@@ -11,7 +11,7 @@ The aim is to design, test, and document a custom control stack for multirotors,
 |-------------------------------|-------------------------------|
 | First prototype               | Top view of quadcopter       |
 
-(You can add more images into the `images/` folder and reference them here.)
+
 
 ---
 
